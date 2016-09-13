@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB23826C915D922719E822E8 /* libPods-WebPSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7F9060C702FCAE099F231A /* libPods-WebPSwift.a */; };
+		CABE63771D8797BB0037293B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE63761D8797BB0037293B /* AppDelegate.swift */; };
+		CABE63791D8797BB0037293B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE63781D8797BB0037293B /* ViewController.swift */; };
+		CABE637C1D8797BB0037293B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE637A1D8797BB0037293B /* Main.storyboard */; };
+		CABE637E1D8797BB0037293B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABE637D1D8797BB0037293B /* Assets.xcassets */; };
+		CABE63811D8797BB0037293B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE637F1D8797BB0037293B /* LaunchScreen.storyboard */; };
+		CABE63891D87A9F00037293B /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE63881D87A9F00037293B /* UIImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A7F9060C702FCAE099F231A /* libPods-WebPSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebPSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8098351D87AB8C00F52F3B /* WebPSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebPSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		CABE63731D8797BB0037293B /* WebPSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebPSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABE63761D8797BB0037293B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CABE63781D8797BB0037293B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CABE637B1D8797BB0037293B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABE637D1D8797BB0037293B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABE63801D8797BB0037293B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABE63821D8797BC0037293B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABE63881D87A9F00037293B /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		FC7BF75E8643F2C1DB7F2DF8 /* Pods-WebPSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebPSwift/Pods-WebPSwift.release.xcconfig"; sourceTree = "<group>"; };
+		FE69BC5737ABF009445702DE /* Pods-WebPSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebPSwift/Pods-WebPSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABE63701D8797BB0037293B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB23826C915D922719E822E8 /* libPods-WebPSwift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A15E2E55663BE9EF18983D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE69BC5737ABF009445702DE /* Pods-WebPSwift.debug.xcconfig */,
+				FC7BF75E8643F2C1DB7F2DF8 /* Pods-WebPSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F36328898758407F419C21D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7F9060C702FCAE099F231A /* libPods-WebPSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CABE636A1D8797BB0037293B = {
+			isa = PBXGroup;
+			children = (
+				CABE63751D8797BB0037293B /* WebPSwift */,
+				CABE63741D8797BB0037293B /* Products */,
+				84A15E2E55663BE9EF18983D /* Pods */,
+				8F36328898758407F419C21D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CABE63741D8797BB0037293B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABE63731D8797BB0037293B /* WebPSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABE63751D8797BB0037293B /* WebPSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CABE63761D8797BB0037293B /* AppDelegate.swift */,
+				CABE63781D8797BB0037293B /* ViewController.swift */,
+				CABE63881D87A9F00037293B /* UIImage.swift */,
+				CABE637A1D8797BB0037293B /* Main.storyboard */,
+				CABE637D1D8797BB0037293B /* Assets.xcassets */,
+				CABE637F1D8797BB0037293B /* LaunchScreen.storyboard */,
+				CABE63821D8797BC0037293B /* Info.plist */,
+				CA8098351D87AB8C00F52F3B /* WebPSwift-Bridging-Header.h */,
+			);
+			path = WebPSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABE63721D8797BB0037293B /* WebPSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABE63851D8797BC0037293B /* Build configuration list for PBXNativeTarget "WebPSwift" */;
+			buildPhases = (
+				FCF6138F33828F6DA93E256C /* [CP] Check Pods Manifest.lock */,
+				CABE636F1D8797BB0037293B /* Sources */,
+				CABE63701D8797BB0037293B /* Frameworks */,
+				CABE63711D8797BB0037293B /* Resources */,
+				70776DF22258ECE84EF5DB15 /* [CP] Embed Pods Frameworks */,
+				1FF18B7929E3EBE12E9F6759 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebPSwift;
+			productName = WebPSwift;
+			productReference = CABE63731D8797BB0037293B /* WebPSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABE636B1D8797BB0037293B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ryota Iwai";
+				TargetAttributes = {
+					CABE63721D8797BB0037293B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q7PFYP5EYA;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CABE636E1D8797BB0037293B /* Build configuration list for PBXProject "WebPSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABE636A1D8797BB0037293B;
+			productRefGroup = CABE63741D8797BB0037293B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABE63721D8797BB0037293B /* WebPSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABE63711D8797BB0037293B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE63811D8797BB0037293B /* LaunchScreen.storyboard in Resources */,
+				CABE637E1D8797BB0037293B /* Assets.xcassets in Resources */,
+				CABE637C1D8797BB0037293B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FF18B7929E3EBE12E9F6759 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebPSwift/Pods-WebPSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70776DF22258ECE84EF5DB15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebPSwift/Pods-WebPSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF6138F33828F6DA93E256C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABE636F1D8797BB0037293B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE63891D87A9F00037293B /* UIImage.swift in Sources */,
+				CABE63791D8797BB0037293B /* ViewController.swift in Sources */,
+				CABE63771D8797BB0037293B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CABE637A1D8797BB0037293B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABE637B1D8797BB0037293B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABE637F1D8797BB0037293B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABE63801D8797BB0037293B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABE63831D8797BC0037293B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CABE63841D8797BC0037293B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABE63861D8797BC0037293B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE69BC5737ABF009445702DE /* Pods-WebPSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = Q7PFYP5EYA;
+				INFOPLIST_FILE = WebPSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.riwi.WebPSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebPSwift/WebPSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CABE63871D8797BC0037293B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7BF75E8643F2C1DB7F2DF8 /* Pods-WebPSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = Q7PFYP5EYA;
+				INFOPLIST_FILE = WebPSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.riwi.WebPSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebPSwift/WebPSwift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABE636E1D8797BB0037293B /* Build configuration list for PBXProject "WebPSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE63831D8797BC0037293B /* Debug */,
+				CABE63841D8797BC0037293B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABE63851D8797BC0037293B /* Build configuration list for PBXNativeTarget "WebPSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE63861D8797BC0037293B /* Debug */,
+				CABE63871D8797BC0037293B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABE636B1D8797BB0037293B /* Project object */;
+}
